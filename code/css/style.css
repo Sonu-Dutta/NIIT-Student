@@ -1,7 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    /* background-image: linear-gradient(to right bottom, red, yellow); */
+    background-image: url(../media/bg1.webp);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    
 }
 .container{
     box-shadow: 0px 0px 5px 5px rgb(216, 216, 216);
@@ -39,5 +42,20 @@ body{
 
  section h1{
     text-align: center;
-    text-shadow: 0px 0px 5px  rgb(128, 128, 255);
 }
+
+@media(max-width:919px){
+    .container{
+        box-shadow: none;
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+}
+@media(max-width:482px){
+    .container{
+        font-size: .7rem;
+    }
+
+}
+
