@@ -1,5 +1,7 @@
+
 .stud-form{
     box-shadow: 0px 0px 5px 5px rgb(221, 221, 221);
+    background:linear-gradient(rgb(107, 107, 177),rgb(150, 92, 161));
     border-radius: 10px;
     padding: 30px;
     margin: auto;
@@ -11,10 +13,27 @@
     padding: 7px 15px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    
     outline-color: red;
 }
 .stud-form input[type="submit"]{
     background-color: rgb(75, 183, 255);
     border: none;
 }
+h1{
+    color: aliceblue;
+    text-shadow:2px 2px 8px black ;
+}
+@media(max-width:919px){
+
+    table{
+        width: 40rem;
+        margin: 2rem auto;
+    }
+}
+@media(max-width:482px){
+    table{
+        width: 20rem;
+        margin: 1rem auto;
+    }
+}
+
