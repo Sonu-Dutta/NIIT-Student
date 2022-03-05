@@ -29,7 +29,7 @@
                 </form>
                 <?php
                         if(isset($_REQUEST['update-button'])){
-                            $host = "localhost:3306";
+                            $host = "localhost:3308";
                             $user = "root";
                             $pass = "";
                             $db = "project1";
